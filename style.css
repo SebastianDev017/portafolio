@@ -1,0 +1,609 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{   
+ 
+}
+header{
+    max-width: 100%;
+}
+nav{
+    max-width: 100%;
+    margin: 10px;
+}
+.pc-logo{
+    max-width:50%;
+    height:auto;
+    float:left;
+    width: 35%;
+    padding: 0px 0px 10px 20px;
+    margin: auto;
+    display: flex;
+}
+.mobile-logo{
+    display: none;
+}
+nav a{
+    float: right;
+}
+nav button{
+    max-width: 100%;
+    letter-spacing:1px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+    font-family: "Inter Tight";
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px 0px;
+    float: right;
+    background: linear-gradient(90deg, rgba(77, 39, 225, 0.9) 5.21%, rgba(255, 60, 95, 0.9) 91.15%);
+}
+.contain-grid-about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33%);
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    padding: 30px;
+    /* margin: 20px 0px; */
+    font-size: 15px;
+    font-family: "Poppins";
+    text-align: justify;
+    color: #000;
+}
+h1{
+    color: #FF3797;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: "Inter Tight";
+}
+p{
+    color: #000;
+    font-size: 15px;
+    font-family: "Poppins";
+}
+.about h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contain-grid-habilidades{
+    color: #FF3797;
+}
+.habilidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,80%);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.imagen-habilidades{
+ max-width: 100%;
+ 
+}
+.imagen-habilidades img{
+ max-width: 100%;
+ width: 45px;
+ height: 45px;
+ margin: 10px;
+}
+
+.herramientas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,80%);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.imagen-herramientas{
+ max-width: 100%;
+ 
+}
+.imagen-herramientas img{
+ max-width: 100%;
+ width: 45px;
+ height: 45px;
+ margin: 10px;
+}
+.contain-proyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
+    margin:auto;
+
+}
+.contain-proyectos a{
+    font-family:"Inter Tight" ;
+}
+.proyectos{
+    float: left;
+    max-width: 100%;
+    width: 100%;
+}
+.proyectos-texto{
+    float: right;
+    width: 100%;
+    max-width: 100%;
+}
+.proyectos-texto p{
+    text-align: justify;
+}
+.proyectos-texto h1{
+    margin: 20px;
+    text-align: center;
+
+}
+.proyectos-texto button{
+    cursor: pointer;
+    font-family: "Inter Tight";
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px 0px;
+    max-width: 100%;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    color: #865DFF;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+}
+.contain-proyectos a{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FF3797;
+    font-weight: bold;
+}
+.contain-proyectos img{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin: 25px auto 10px auto;
+}
+
+.contacto{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.contacto ul{
+    display: table;
+}
+.contacto ul li{
+    display: table-cell;
+}
+.contacto img{
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+}
+.contain-contacto{
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+.contacto a{
+    margin: 0px 6px;
+}
+button:hover{
+    letter-spacing: 1.5px;
+    transition-duration: 350ms;
+}
+@media screen and (min-width: 1091px){
+    .habilidades{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,55%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .imagen-habilidades img{
+     max-width: 100%;
+     width: 40px;
+     height: 40px;
+     margin: 10px;
+    }
+    .herramientas{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,55%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .imagen-herramientas img{
+     max-width: 100%;
+     width: 40px;
+     height: 40px;
+     margin: 10px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .contain-grid-about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 33%);
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 17px;
+        font-family: "Poppins";
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 830px){
+    nav button{
+        max-width: 100%;
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+        border: none;
+        border-radius: 10px;
+        margin: auto 20px 0px 0px;
+        cursor: pointer;
+        font-family: "Inter Tight";
+        font-weight: bold;
+        float: right;
+    }
+    .pc-logo{
+        max-width: 220px;
+    }
+    .contain-grid-about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 33%);
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 12px;
+        font-family: "Poppins";
+        text-align: justify;
+    }
+    h1{
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: "Inter Tight";
+    }
+    .habilidades{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,80%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .imagen-habilidades img{
+     max-width: 100%;
+     width: 35px;
+     height: 35px;
+     margin: 10px;
+    }
+    .herramientas{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,80%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .imagen-herramientas img{
+     max-width: 100%;
+     width: 35px;
+     height: 35px;
+     margin: 10px;
+    }
+    .proyectos-texto p{
+        text-align: justify;
+        font-size: 12px;
+    }
+    .proyectos-texto h1{
+        margin: 20px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .proyectos-texto button{
+        cursor: pointer;
+        font-family: "Inter Tight";
+        font-weight: bold;
+        max-width: 100%;
+        width: 110px;
+        height: 30px;
+        font-size: 14px;
+        border: none;
+        border-radius: 10px;
+        margin: 20px 0px 10px 0px;
+    }
+    .contain-proyectos a{
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+        position: relative;
+        top: 15px;
+    }
+    .contain-proyectos img{
+        max-width: 100%;
+        width: 150px;
+        height: auto;
+        display: flex;
+        margin: 10px auto;
+    }
+    .contacto img{
+        max-width: 100%;
+        width: 30px;
+        height: 30px;
+    }
+    .contain-contacto{
+        max-width: 100%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        margin: auto;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 710px){
+    .contain-grid-about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 33%);
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 12px;
+        font-family: "Poppins";
+        text-align: justify;
+    }
+    .habilidades{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,90%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .imagen-habilidades img{
+     max-width: 100%;
+     width: 35px;
+     height: 35px;
+     margin: 10px;
+    }
+    .herramientas{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,90%);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 710px){
+    .proyecto-martin{
+        display: none;
+    }
+    .contain-proyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 0px;
+    margin:auto;
+}
+.contain-proyectos img{
+    max-width: 100%;
+    width: 220px;
+    height: auto;
+    display: flex;
+    margin: 10px auto;
+}
+.contain-proyectos a{
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+
+}
+}
+@media screen and (max-width: 550px){
+    nav button{
+        max-width: 100%;
+        width: 70px;
+        height: 25px;
+        font-size: 8px;
+        border: none;
+        border-radius: 10px;
+        margin: auto 20px 0px 0px;
+        cursor: pointer;
+        font-family: "Inter Tight";
+        font-weight: bold;
+    }
+    .pc-logo{
+        max-width: 220px;
+    }
+    .contain-proyecto{
+            padding-bottom: 40px 0px;
+    }
+    .pc-logo{
+        max-width: 220px;
+    }
+    .contain-grid-about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,100%);
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 13px;
+        font-family: "Poppins";
+        text-align: justify;
+    }
+    h1{
+        font-size: 19px;
+        margin: 10px;
+        font-family: "Inter Tight";
+    }
+    .proyectos-texto p{
+        text-align: justify;
+        font-size: 12px;
+    }
+    .proyectos-texto h1{
+        margin: 20px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .proyectos-texto button{
+        cursor: pointer;
+        font-family: "Inter Tight";
+        font-weight: bold;
+        max-width: 100%;
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+        border: none;
+        border-radius: 10px;
+        margin: 20px 0px 10px 0px;
+    }
+    .contain-proyectos img{
+        max-width: 100%;
+        width: 150px;
+        height: auto;
+        display: flex;
+        margin: 10px auto;
+    }
+    .contacto img{
+        max-width: 100%;
+        width: 30px;
+        height: 30px;
+    }
+    .contain-contacto{
+        max-width: 100%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        margin: auto;
+        font-size: 17px;
+    }
+    .imagen-habilidades img{
+     max-width: 100%;
+     width:  35px;
+     height: 35px;
+     margin: 10px;
+    }
+    .imagen-herramientas img{
+     max-width: 100%;
+     width: 35px;
+     height: 35px;
+     margin: 10px;
+    }
+    .contain-proyectos a{
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+        position: relative;
+        top: 5px;
+    }
+    .contacto img{
+        max-width: 100%;
+        width: 30px;
+        height: 30px;
+    }
+    .contain-contacto{
+        max-width: 100%;
+        height:100px;
+        background-color: white;
+        display: flex;
+        margin: auto;
+    }
+    .contain-contacto h1{
+        font-size: 16px;
+    }
+    .contain-grid-about{
+        padding: 0px 20px;
+    }
+    .contain-proyectos{
+        padding: 30px 20px;
+    }
+}
+@media screen and (max-width: 475px){
+    nav button{
+        max-width: 100%;
+        width: 90px;
+        height: 25px;
+        font-size: 8px;
+        border: none;
+        border-radius: 10px;
+        margin: 0px 0px 10px 0px;
+        cursor: pointer;
+        font-family: "Inter Tight";
+        font-weight: bold;
+    }
+    nav{
+        height: auto;
+    }
+    .pc-logo{
+        max-width: 220px;
+        padding: 0;
+    }
+        .imagen-habilidades img{
+     max-width: 100%;
+     width:  25px;
+     height: 25px;
+     margin: 10px;
+    }
+    .imagen-herramientas img{
+     max-width: 100%;
+     width: 25px;
+     height: 25px;
+     margin: 10px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .proyectos-texto p{
+        font-size: 10px;
+    }
+    .proyectos-texto h1{
+        font-size: 16px;
+    }
+    .contain-grid-about{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,100%);
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px;
+        font-size: 10px;
+        font-family: "Poppins";
+        text-align: justify;
+    }
+    .contain-grid-about{
+        padding: 0px 20px;
+    }
+    .contain-proyectos{
+        padding: 30px 20px;
+    }
+}
+.sub-container-proyectos{
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
